@@ -1,4 +1,4 @@
-#include #include #include using namespace std;
+#include #include #include using namespace std; 
 
 // Класс с закрытыми свойствами и открытыми методами class MyClass { private: int id; // Идентификатор string name; // Строковое поле 1 string type; // Строковое поле 2 string category; // Строковое поле 3 int intField; // Целое число float floatField; // Число с плавающей точкой double doubleField; // Число с двойной точностью
 
