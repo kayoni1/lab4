@@ -48,6 +48,7 @@ for (int i = 0; i < count; ++i) {
     cout << "Создание объекта " << i + 1 << ":\n";
     createObjectWithParameters(objects);
 }
+
 }
 
 // Функция для редактирования объекта void editObject(vector& objects) { int id; cout << "Введите ID объекта для редактирования: "; cin >> id;
@@ -68,6 +69,7 @@ for (auto& obj : objects) {
     }
 }
 cout << "Объект с таким ID не найден.\n";
+
 }
 
 // Функция для просмотра всех объектов void displayAllObjects(const vector& objects) { if (objects.empty()) { cout << "Список объектов пуст.\n"; return; }
@@ -76,6 +78,7 @@ cout << "Список объектов:\n";
 for (const auto& obj : objects) {
     obj.displayProperties();
 }
+
 }
 
 // Главное меню программы int main() { vector objects; int choice;
@@ -114,4 +117,5 @@ while (true) {
             cout << "Неверный выбор. Попробуйте снова.\n";
     }
 }
-}# lab4
+
+}
