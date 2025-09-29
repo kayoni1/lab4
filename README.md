@@ -29,6 +29,8 @@ void displayProperties() const {
 // Геттер для ID
 int getId() const { return id; }
 
+};
+
 // Функция для создания объекта по умолчанию void createDefaultObject(vector& objects) { objects.push_back(MyClass()); cout << "Объект по умолчанию создан.\n"; }
 
 // Функция для создания объекта с параметрами void createObjectWithParameters(vector& objects) { int id, intField; string name, type, category; float floatField; double doubleField;
